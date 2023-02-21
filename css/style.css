@@ -56,8 +56,7 @@ body {
   font-size: 20px;
 
 }
- .title
- {
+ .title {
   color: #9db0d1;
   font-size: 60px;
  font-family: 'Arapey', serif;
@@ -65,15 +64,13 @@ body {
  text-align: center;
  margin: 100px 0 50px 0;
 }
-.sub-title
-{
+.sub-title {
   line-height: 24px;
   text-align: center;
   width: 1024px;
   margin: 0 auto 50px auto;
 }
-.btn
-{
+.btn {
   background-color: #ebac87;
   color:#ffffff;
   border: 2px solid #ffffff;
@@ -94,24 +91,22 @@ body {
 .btn-center {
   margin: 0 auto 50px auto;
 }
-.navigation
-{
+.navigation {
   display:flex;
   justify-content: center;
   margin: 0 0 48px 0;
 }
 
-.link
-
-{ display: flex;
+.link {
+   display: flex;
   color:#000000;
   line-height: 24px;
   text-decoration: none;
   align-items: center;
   margin: 0 25px 0 25px;
 }
-.icon-check
-{background: #9db0d1;
+.icon-check {
+  background: #9db0d1;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -119,24 +114,22 @@ body {
   display:block;
   margin: 0 15px 0 0;
 }
-.link:hover .icon-check 
-{
+.link:hover .icon-check {
   background:none;
 }
-.link:hover .icon-check svg *
-{
+.link:hover .icon-check svg * {
  fill: #9db0d1;
 }
-.caption{
+.caption {
 font-family: 'Arapey', serif;
 text-align: center;
 font-size: 40px;
 line-height: 44px;
 padding:252px 0 50px 0 ;
-background: url(../img./bg-cloud.png) top /  auto 200px repeat-x,
+background: url(../img/bg-cloud.png) top /  auto 200px repeat-x,
 linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
 }
-.box{
+.box {
   width:350px;
   background: #FFFFFF;
   border-radius: 10px;
@@ -168,6 +161,9 @@ linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
 .image img {
   width: 100%;
 }
+.box-text {
+  line-height: 24px;
+}
 .box-text strong {
 font-weight: bold;
 }
@@ -183,7 +179,7 @@ font-weight: bold;
 .container-bottom {
   width:1200px;
   margin: 0 auto;
-  background: url(../img./bg-hill.png) bottom right / auto 475px no-repeat;
+  background: url(../img/bg-hill.png) bottom right / auto 475px no-repeat;
   min-height: 475px;
   padding: 40px 0 0 0;
 }
@@ -237,3 +233,16 @@ border: 2px solid #ffffff;
   text-decoration: none;
   margin: 0 0 0 32px;
 }
+
+.fb:hover svg * {
+  fill:  #3b5998;
+  
+}
+.pinterest:hover svg * {
+  fill:  #c8232c;
+}
+.instagram:hover svg * {
+fill: #E1306C ;
+}
+
+  
